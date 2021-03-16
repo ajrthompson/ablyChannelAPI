@@ -14,7 +14,7 @@ Mechanism to automatically create, configure and manage channels.
 
 Basic channel management API design:
 
-![Basic Channel Management API endpoints](BasicChannelMgmtApi.png)
+![Basic Channel Management API endpoints](BasicChannelMgmtAPI.png)
 
 ## 1. Authentication Solution
 
