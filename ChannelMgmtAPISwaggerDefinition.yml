@@ -1,0 +1,61 @@
+swagger: "2.0"
+info:
+  description: "This documentation provides guidance on using the Ably Realtime Channel Management API"
+  version: "0.1.0"
+  title: "Ably Realtime Channel Management"
+  termsOfService: "https://ably.com/terms"
+host: "ably.com"
+basePath: "/v1"
+tags:
+- name: "channel"
+  description: "Manage channels"
+  externalDocs:
+    description: "Find out more"
+    url: "https://ably.com/documentation/"
+schemes:
+- "https"
+- "http"
+paths:
+  /channel:
+    get:
+      tags:
+      - "channel"
+      summary: "Get list of channels"
+      responses:
+        "200":
+          description: "Channel details"
+    post:
+      tags:
+      - "channel"
+      summary: "Create a new channel"
+      responses:
+        "200":
+          description: "Channel created"
+  /channel/{channelId}:
+    get:
+      tags:
+      - "channel"
+      summary: "Find channel by ID"
+      responses:
+        "200":
+          description: "Channel details"
+        "404":
+          description: "Channel not found"
+    put:
+      tags:
+      - "channel"
+      summary: "Update existing channel"
+      responses:
+        "200":
+          description: "Channel updated"
+        "404":
+          description: "Channel not found"
+    delete:
+      tags:
+      - "channel"
+      summary: "Delete existing channel"
+      responses:
+        "200":
+          description: "Channel deleted"
+        "404":
+          description: "Channel not found"
