@@ -44,10 +44,10 @@ Basic mock ups are provided below for the Application level and User level API K
 ![User Level API Key page](UserLevelAPIKeys.png)
 
 ### Creating new API keys
-<img src="\NewAPIkeymanagement.png" width="50%">
+<img src="NewAPIkeymanagement.png" width="50%">
 
 ### Updating existing API keys
-<img src="\APIkeymanagement.png" width="50%">
+<img src="APIkeymanagement.png" width="50%">
 
 Further work would be needed to add the ability to customise the expiry date of the API keys, both when creating and updating a key.
 
