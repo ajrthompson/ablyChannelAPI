@@ -151,6 +151,15 @@ The success of the API and launch should be measured through the following KPIs,
 
 ## 6. Further Considerations
 
+### Pricing
+
+It is assumed that this feature will be included within user's existing price plans. Whilst the Channel Management API is pre-greneral availability, data should be collected to ascertain additional costs associated with offering this API. If costs per user / account / application increase significantly, then this could either be:
+
+- Reflected in subscription pricing changes.
+- Limited to enterprise subscriptions only.
+
+As with other areas, this decision should incorporate both qualitative and quantitative user feedback if possible.
+
 ### Competitor Analysis
 
 This document has been prepared without significant competitor analysis. Understanding the offerings of competitors (e.g. Pusher, PubNub, AWS IOT) would better inform the value proposition and therefore the feature design, customer expectations and objectives for customer adoption.
